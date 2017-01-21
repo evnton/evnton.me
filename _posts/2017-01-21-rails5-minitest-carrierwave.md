@@ -27,7 +27,7 @@ mike:
 
 `test/test_helper.rb` 文件中的配置如下：
 
-```
+``` ruby
 require 'fileutils'
 
 # create root dir
@@ -52,7 +52,7 @@ FileUtils.cp_r carrierwave_template.join('uploads'), carrierwave_root
 at_exit do
   # remove root dir
   FileUtils.remove_dir carrierwave_root
-  
+
   #puts "Removing carrierwave test directories:"
   Dir.glob(carrierwave_root.join('*')).each do |dir|
     #puts "   #{dir}"
