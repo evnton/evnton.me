@@ -19,7 +19,7 @@ links:
     external:     true
 highlighter:      pygments
 permalink:        pretty
-paginate:         20
+paginate:         10
 markdown:         redcarpet
 redcarpet:
   extensions:
