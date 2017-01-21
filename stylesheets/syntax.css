@@ -1,4 +1,8 @@
+pre { color: #f8f8f2; }
+pre.lineno { color: #ccc; }
+
 .highlight { font-size: 13px; }
+div.highlight .gutter.gl { padding-right: 10px; }
 div.highlight, div.highlight code, div.highlight pre  { background: #29281e; }
 div.highlight code { padding: 0; }
 div.highlight .c { color: #75715e } /* Comment */

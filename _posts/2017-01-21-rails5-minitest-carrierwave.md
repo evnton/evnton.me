@@ -5,17 +5,19 @@ title: 使用Rails5的Minitest测试CarrierWave上传文件
 
 使用Minitest测试CarrierWave上传图片功能，需要设置测试环境中CarrierWave的根目录。
 
-    CarrierWave.root = root_directory
+``` ruby
+CarrierWave.root = root_directory
+```
 
 首先，创建根目录 `test/fixtures/files/uploads`，把待上传的文件放到 `test/fixtures/files` 中。
 
 其次，运行测试打印 `model.file_field.file.path` 的结果，会得到类似下面的结果。
 
-    /Users/mike/proj/public/uploads/user/picture/762146111/mike.jpg
+`/Users/mike/proj/public/uploads/user/picture/762146111/mike.jpg`
 
 准备测试数据：
 
-```
+``` ruby
 mike:
   name: Mike
   picture: mike.jpg
