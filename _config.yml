@@ -1,0 +1,28 @@
+title:            Evnton
+description:      Evnton's blog.
+url:              http://evnton.me
+signoff:          Evnton
+google_analytics: UA-55320040-1
+
+links:
+  - name:         Home
+    url:          /
+  - name:         About
+    url:          /about
+  - name:         Contact
+    url:          /contact
+  - name:         Twitter
+    url:          https://twitter.com/evnton
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/evnton
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+paginate:         20
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
+# Gems
+gems: [jekyll-paginate]
