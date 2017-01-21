@@ -17,7 +17,7 @@ links:
   - name:         GitHub
     url:          http://github.com/evnton
     external:     true
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 paginate:         20
 markdown:         redcarpet
