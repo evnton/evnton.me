@@ -20,7 +20,7 @@ links:
 highlighter:      rouge
 permalink:        pretty
 paginate:         20
-markdown:         redcarpet
+markdown:         kramdown
 redcarpet:
   extensions:
     - smart
