@@ -319,9 +319,14 @@ pre {
   padding: 10px 0;
   width: 100%;
   line-height: 1.2em;
+  color: #f8f8f2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+pre.lineno {
+  color: #ccc;
+}
 
 code {
   font-size: 14px;
